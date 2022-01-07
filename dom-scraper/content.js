@@ -1,7 +1,7 @@
 chrome.runtime.onMessage.addListener(gotMessage)
 
 function gotMessage(message, sender, sendResponse) {
-  
+
   let outerwrap = document.createElement('div')
   outerwrap.setAttribute('id', 'copy-btn-outer-container')
   outerwrap.setAttribute('style', 'background: #3e403e96; width: 100%; height: 100%; position: absolute; z-index: 9999;')
